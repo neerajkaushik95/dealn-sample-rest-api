@@ -28,18 +28,12 @@ Heavily inspired from [Egghead.io - How to Write an Open Source JavaScript Libra
 
 Clone the repo:
 ```sh
-git clone git@github.com:kunalkapadia/express-mongoose-es6-rest-api.git
-cd express-mongoose-es6-rest-api
-```
-
-Install yarn:
-```js
-npm install -g yarn
+git clone https://github.com/neerajkaushik95/dealn-sample-rest-api.git
+cd dealn-sample-rest-api
 ```
 
 Install dependencies:
-```sh
-yarn
+```node, npm
 ```
 
 Set environment (vars):
@@ -50,10 +44,10 @@ cp .env.example .env
 Start server:
 ```sh
 # Start server
-yarn start
+npm start
 
 # Selectively set DEBUG env var to get logs
-DEBUG=express-mongoose-es6-rest-api:* yarn start
+DEBUG=dealn-sample-rest-api:* npm start
 ```
 Refer [debug](https://www.npmjs.com/package/debug) to know how to selectively turn on logs.
 
@@ -61,25 +55,25 @@ Refer [debug](https://www.npmjs.com/package/debug) to know how to selectively tu
 Tests:
 ```sh
 # Run tests written in ES6
-yarn test
+npm run test
 
 # Run test along with code coverage
-yarn test:coverage
+npm run  test:coverage
 
 # Run tests on file change
-yarn test:watch
+npm run test:watch
 
 # Run tests enforcing code coverage (configured via .istanbul.yml)
-yarn test:check-coverage
+npm run test:check-coverage
 ```
 
 Lint:
 ```sh
 # Lint code with ESLint
-yarn lint
+npm run lint
 
 # Run lint on any file change
-yarn lint:watch
+npm run lint:watch
 ```
 
 Other gulp tasks:
