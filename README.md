@@ -23,6 +23,7 @@ Heavily inspired from [Egghead.io - How to Write an Open Source JavaScript Libra
 - Uses [http-status](https://www.npmjs.com/package/http-status) to set http status code. It is recommended to use `httpStatus.INTERNAL_SERVER_ERROR` instead of directly using `500` when setting status code.
 - Has `.editorconfig` which helps developers define and maintain consistent coding styles between different editors and IDEs.
 
+
 ## Getting Started
 
 Clone the repo:
